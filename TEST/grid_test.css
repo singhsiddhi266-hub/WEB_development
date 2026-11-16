@@ -1,0 +1,33 @@
+.main{
+    height:600px;
+    width:600px;
+    background-color:yellow;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-items:end;
+    justify-content:space-evenly;
+}
+.box1{
+    height:200px;
+    width:100px;
+    background-color: aqua;
+}
+.box2{
+    height:200px;
+    width:100px;
+    background-color: aqua;
+}
+.box3{
+    height:200px;
+    width:100px;
+    background-color: aqua;
+    grid-row:2/3;
+    grid-column:2/3;
+}
+.box4{
+    height:200px;
+    width:100px;
+    background-color: aqua;
+    grid-row:2/3;
+    grid-column:1/2;
+}
