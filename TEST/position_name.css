@@ -1,0 +1,36 @@
+*{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.main{
+    width:100vw;
+    height:100vh;
+    background-color:bisque;
+    position:relative;
+}
+.name1{
+    position:absolute;
+    left:0px;
+    font-weight:200px;
+    font-size:xx-large;
+}
+.name2{
+    position:absolute;
+    right:0px;
+    font-weight:200px;
+    font-size:xx-large;
+}
+.name3{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    font-weight:200px;
+    font-size:xx-large;
+}
+.name4{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    font-weight:200px;
+    font-size:xx-large;
+}
