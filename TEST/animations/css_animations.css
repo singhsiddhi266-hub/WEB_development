@@ -1,0 +1,12 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: MyAnimations;
+  animation-duration: 4s;
+}
+
+@keyframes MyAnimations{
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
