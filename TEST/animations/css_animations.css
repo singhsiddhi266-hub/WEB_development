@@ -1,12 +1,55 @@
-div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+/* div {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(226, 120, 238);
   animation-name: MyAnimations;
-  animation-duration: 4s;
+  animation-duration: 5s;
 }
 
 @keyframes MyAnimations{
-  from {background-color: red;}
-  to {background-color: yellow;}
+  from {background-color: pink;}
+  to {color: rgb(65, 82, 137);}
+  from{font-size:small}
+  to{font-size:large}
+} */
+ div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-duration: 2s;
+  margin-top:25px;
+  border-radius:50%;
+  animation-iteration-count:2;
 }
+.div1{
+    animation-name:myAnimations;
+}
+.div2{
+    animation-name:MyAnimation;
+}
+.div3{
+    animation-name:myAnimation;
+}
+@keyframes myAnimation {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:500px; top:100px;}
+  75%  {background-color:green; left:90px; top:400px;}
+  100% {background-color:red; left:8px; top:90px;}
+}
+@keyframes myAnimations {
+  0%   {background-image:linear-gradient(to top, #fc466b,#3F5EFB); left:0px; top:0px;}
+  25%  {background-image:linear-gradient(to right, #F7941E,#72C6EF,#00A651); left:68px; top:90px;}
+  50%  {background-color:#c94b4b; left:200px; top:200px;}
+  75%  {background-color:#4b134f; left:0px; top:200px;}
+  100% {background-color:#fffbd5; left:0px; top:0px;}
+}
+@keyframes MyAnimation {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
