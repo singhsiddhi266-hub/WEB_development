@@ -1,3 +1,6 @@
+body{
+    background-color:skyblue;
+}
 #div1{
     height:400px;
     width:400px;
@@ -6,10 +9,12 @@
 @media (min-width: 600px){
     #div1{background-color:orange;
         color:white;
+        border:2px solid red;
     }
 }
 @media (min-width: 768px){
     #div1{background-color:green;
     color:black;
+    border:none;
     }
 }
