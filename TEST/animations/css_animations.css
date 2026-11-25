@@ -12,7 +12,7 @@
   from{font-size:small}
   to{font-size:large}
 } */
- div {
+ /* div {
   width: 100px;
   height: 100px;
   background-color: red;
@@ -52,4 +52,21 @@
   75%  {background-color:green; left:0px; top:200px;}
   100% {background-color:red; left:0px; top:0px;}
 }
-
+ */
+ div{
+  width: 500px;
+  height: 20px;
+  position: relative;
+  animation-duration: 2s;
+}
+.div1{
+    background-color:black;
+    padding-left:5px;
+    padding-top:3px;
+}
+.div2{
+    width:459px;
+    height:15px;
+    padding-right:35px;
+    background-color:darkcyan;
+}
